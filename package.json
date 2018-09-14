@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Build your first crud app! Using what we learned yesterday create a full crud app for user objects. The objects should look like this: {   \"name\":\"user name\",   \"email\": \"user email\",   \"state\": \"CA\" }",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -17,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/lschuab/firstcrudassignment/issues"
   },
-  "homepage": "https://github.com/lschuab/firstcrudassignment#readme",
-  "dependencies": {
-    "express": "^4.16.3"
-  }
+  "homepage": "https://github.com/lschuab/firstcrudassignment#readme"
 }
